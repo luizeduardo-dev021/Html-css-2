@@ -1,4 +1,6 @@
 # Html-css-2
  aulas
 
-apredendo a progamar, o foco é so 1, se tornar um grande desenvolvedor e engenherio de software
+apredendo a progamar
+
+<a href="https://luizeduardo-dev021.github.io/Html-css-2/Exercicios/ex001">Executar o arquivo </a>
