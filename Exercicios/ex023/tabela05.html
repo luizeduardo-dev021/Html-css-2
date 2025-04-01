@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;    
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .destaque {
+            background-color: lightgreen;
+        }
+
+        .cnome {
+            background-color: chartreuse;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .vermelho {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho">
+            <col class="amarelo">
+            <col class="vermelho">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td >Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Isabelle</td>
+                <td>F</td>
+                <td>20</td>
+                <td>Engenheira</td>
+            </tr>
+            <tr>
+                <td>Eduardo</td>
+                <td>M</td>
+                <td>21</td>
+                <td>Progamador</td>
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Investidor</td>
+            </tr>
+            <tr>
+                <td>Enrico</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Medico</td>
+            </tr>
+            <tr>
+                <td >Melinda</td>
+                <td>F</td>
+                <td>20</td>
+                <td>Astrounauta</td>
+            </tr>
+            <tr>
+                <td>Diana</td>
+                <td>F</td>
+                <td>19</td>
+                <td>Farmaceutica</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
